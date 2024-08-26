@@ -49,9 +49,15 @@ const About = () => {
       >
         Sou desenvolvedor de Software apaixonado por interfaces gráficas que
         facilitam a experiência do usuário, ao longo de anos trabalhei com
-        diversas tecnologias, como: <span>Javascript</span>,{" "}
-        <span>Typescript</span>, <span>React.Js</span>,<span>NextJs</span> ,
-        <span>TailwindCss</span>, <span>Three.Js</span>. Sempre estou em
+        diversas tecnologias, como:{" "}
+        <span className="text-[#915EFF]">Javascript</span>,{" "}
+        <span className="text-[#915EFF]">Typescript</span>,{" "}
+        <span className="text-[#915EFF]">React.Js</span>,{" "}
+        <span className="text-[#915EFF]">NextJs</span> ,{" "}
+        <span className="text-[#915EFF]">TailwindCss</span>,{" "}
+        <span className="text-[#915EFF]">Three.Js</span>,{" "}
+        <span className="text-[#915EFF]">Axios</span>,{" "}
+        <span className="text-[#915EFF]">React-Query</span>, . Sempre estou em
         constante aprendizado e colaboro eficientemente com clientes para criar
         soluções eficientes e escaláveis para resolver problemas do mundo real.
       </motion.p>

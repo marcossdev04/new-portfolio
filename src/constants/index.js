@@ -24,6 +24,9 @@ import {
   tripguide,
   threejs,
 } from "../assets";
+import node from '../assets/tech/node.svg'
+import react from '../assets/tech/react.svg'
+import swift from '../assets/tech/swift.svg'
 
 export const navLinks = [
   {
@@ -43,15 +46,15 @@ export const navLinks = [
 const services = [
   {
     title: "Desenvolvedor Web",
-    icon: web,
+    icon: react,
   },
   {
     title: "Desenvolvedor Mobile",
-    icon: mobile,
+    icon: swift,
   },
   {
     title: "Desenvolvedor Backend",
-    icon: backend,
+    icon: node,
   },
 ];
 
