@@ -27,6 +27,9 @@ import {
 import node from '../assets/tech/node.svg'
 import react from '../assets/tech/react.svg'
 import swift from '../assets/tech/swift.svg'
+import ddo from '../assets/company/diadeobra.png'
+import geloExtra from '../assets/company/geloextra.png'
+import interrogação from '../assets/company/interrogação.png'
 
 export const navLinks = [
   {
@@ -117,8 +120,8 @@ const experiences = [
   {
     title: "Desenvolvedor Front-End",
     company_name: "Dia de Obra",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: ddo,
+    iconBg: "#E6DEDD",
     date: "Maio, 2023 - Outubro 2023",
     points: [
       "Desenvolvimento de interfaces de um SaaS de monitoramento de obras de forma Remota.",
@@ -130,7 +133,7 @@ const experiences = [
   {
     title: "Desenvolvedor Full-Stack",
     company_name: "Dia de Obra",
-    icon: tesla,
+    icon: ddo,
     iconBg: "#E6DEDD",
     date: "Outubro 2023 - Maio 2024",
     points: [
@@ -143,8 +146,8 @@ const experiences = [
   {
     title: "Desenvolvedor Front-End",
     company_name: "Gelo Extra",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: geloExtra,
+    iconBg: "#E6DEDD",
     date: "Maio 2024 - Presente",
     points: [
       "Criação de Relatórios em PDF e Graficos dinâmicos",
@@ -156,8 +159,8 @@ const experiences = [
   {
     title: "Desenvolvedor Front-End",
     company_name: "Sua empresa",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    icon: interrogação,
+    iconBg: "#FFFFFF",
     date: "Fale comigo",
     points: [
     ],
