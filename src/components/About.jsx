@@ -57,7 +57,7 @@ const About = () => {
         <span className="text-[#915EFF]">TailwindCss</span>,{" "}
         <span className="text-[#915EFF]">Three.Js</span>,{" "}
         <span className="text-[#915EFF]">Axios</span>,{" "}
-        <span className="text-[#915EFF]">React-Query</span>, . Sempre estou em
+        <span className="text-[#915EFF]">React-Query</span>. Sempre estou em
         constante aprendizado e colaboro eficientemente com clientes para criar
         soluções eficientes e escaláveis para resolver problemas do mundo real.
       </motion.p>

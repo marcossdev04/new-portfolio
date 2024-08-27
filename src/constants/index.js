@@ -196,67 +196,90 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "CRM Empresarial",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "CRM feito para uma empresa no ramo de gelos feito em React 18, Next 14 e TailwindCss. Integrações com API Rest, Google-maps-api, geração de relatórios em PDF e gráficos dinâmicos são algumas de suas inúmeras funcionaliades, além de zelar boas praticas de SOLID e Clean Arquiteture",
     tags: [
       {
-        name: "react",
+        name: "ReactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "NextJs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwindCss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "React-Query",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Zustand",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Zod",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Vpratas",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Ecomerce feito para a venda de pratas 925 no varejo, utilizando tecnologias como ReactJs, NextJs, TailwindCss e bibliotecas de estilização como Shadcn-ui, funcionalidades como carrinho de compras e cálculo de do valor da entrega com base no cep foram implementadas. ",
     tags: [
       {
-        name: "react",
+        name: "ReactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "NextJs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "TailwindCss",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Api Context",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Shadcn-Ui",
+        color: "green-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/marcossdev04/VPRATAS",
   },
   {
-    name: "Trip Guide",
+    name: "PrescriApp",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Aplicação feita para nutricionistas fazerem prescrições de medicamentos manipulados de forma personalizada, gerando PDF's impressos",
     tags: [
       {
-        name: "nextjs",
+        name: "NextJs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "ReactJs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "TailwindCss",
         color: "pink-text-gradient",
+      },
+      {
+        name: "React-Pdf",
+        color: "blue-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/marcossdev04/PrescriApp-web",
   },
 ];
 
