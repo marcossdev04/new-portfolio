@@ -31,7 +31,7 @@ import ddo from '../assets/company/diadeobra.png'
 import geloExtra from '../assets/company/geloextra.png'
 import interrogação from '../assets/company/interrogação.png'
 import Vpratas from '../assets/Vpratas.png'
-import prescriApp from '../assets/prescriapp.png'
+import prescriApp from '../assets/prescriApp.png'
 import geloextra from '../assets/geloextra1.png'
 
 export const navLinks = [
