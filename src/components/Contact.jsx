@@ -33,21 +33,22 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_cppyha8',
+        'template_z5j0shm',
+
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Marcos Silva",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "marcossvncdev@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+       '7bHFIzpxNc5ObBie6'
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Obrigado! Te retorno assim que possível.");
 
           setForm({
             name: "",
@@ -59,7 +60,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          alert("Este serviço está bloqueado temporariamente");
         }
       );
   };
