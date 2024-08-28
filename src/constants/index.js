@@ -30,6 +30,9 @@ import swift from '../assets/tech/swift.svg'
 import ddo from '../assets/company/diadeobra.png'
 import geloExtra from '../assets/company/geloextra.png'
 import interrogação from '../assets/company/interrogação.png'
+import Vpratas from '../assets/Vpratas.png'
+import prescriApp from '../assets/prescriapp.png'
+import geloextra from '../assets/geloextra1.png'
 
 export const navLinks = [
   {
@@ -225,7 +228,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: geloextra,
+    source_code_link: "https://github.com/Gelo-Extra",
   },
   {
     name: "Vpratas",
@@ -253,7 +257,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: jobit,
+    image: Vpratas,
     source_code_link: "https://github.com/marcossdev04/VPRATAS",
   },
   {
@@ -278,7 +282,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
+    image: prescriApp,
     source_code_link: "https://github.com/marcossdev04/PrescriApp-web",
   },
 ];
